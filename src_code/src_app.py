@@ -136,4 +136,4 @@ if __name__ == '__main__':
             pickle_file_path)
 
         # run the service
-        app.run(debug=True, use_reloader=True)
+        app.run(host="0.0.0.0", port=8000)
