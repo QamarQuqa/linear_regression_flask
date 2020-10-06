@@ -10,13 +10,13 @@ We used Sickit Learn to train a model using the Linear Regression algorithm, and
 
 #### to build the docker image:
 
-- run the command `**_docker build -t linear_model**_`
-  - the `**_-t_**` is used to set the a TAG for the docker image
+- run the command `docker build -t linear_model`
+  - the `-t` is used to set the a TAG for the docker image
 
 #### to run the service without the docker:
 
-- run the command `**_python3 src_app.py -path pickle_file_path_**`
-  - the `**_pickle_file_path_**` is the entire path of the pickle file which is stored in the service directory
+- run the command `python3 src_app.py -path pickle_file_path`
+  - the `pickle_file_path` is the entire path of the pickle file which is stored in the service directory
 
 #### to use the service:
 
