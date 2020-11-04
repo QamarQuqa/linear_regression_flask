@@ -1,5 +1,5 @@
 # start from the base image Python
-FROM python:3
+FROM python:3.6-slim
 
 # set a directory for the app
 WORKDIR /linear_model_flask
