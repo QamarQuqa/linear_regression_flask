@@ -135,5 +135,5 @@ if __name__ == '__main__':
         linear_regression_model = read_linear_regression_model(
             pickle_file_path)
 
-        # run the service
+        # run the service, set the port
         app.run(host="0.0.0.0", port=8000)
